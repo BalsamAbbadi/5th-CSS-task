@@ -1,0 +1,250 @@
+
+h1,h2,h3,p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    text-transform: uppercase;
+}
+body,head{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    gap: 200px;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #2c3e50;
+}
+
+.bootstrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+    color: white;
+
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    justify-content: space-evenly;
+    width: 40%;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size:large;
+    padding: 8px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.interface{
+    height: 700px;
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interfaceitems{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.interfaceitems h2{
+    font-size: 65px;
+    text-transform: uppercase;
+}
+.interfaceitems p{
+    font-size: 25px;
+}
+
+#Portfolio h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #2c3e50;
+}
+
+#Portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.pics{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.pics img{
+    border-radius: 10px;
+}
+
+#about{
+    background-color :#1abc9c;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 60px;
+    width: 100%;
+}
+
+.firstP,.secondP{
+    color: white;
+    width: 30%;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+}
+.button button{
+    width: 250px;
+    padding: 20px;
+    color: white;
+    background-color: #1abc9c;
+    border: 2px white solid;
+    border-radius: 10px;
+    font-size: large;
+}
+
+#contact h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    color :#2c3e50;
+    padding-top: 60px;
+    width: 100%;
+}
+
+
+#contact{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form input,textarea{
+    width: 100%;
+    padding: 30px;
+    border: 0 white;
+    font-size: 25px;
+}
+
+
+.form{
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+#submit{
+    width: fit-content;
+    padding: 20px;
+    background-color: #1abc9c;
+    color: white;
+    border-radius: 10px;
+}
+
+
+#last{
+    width: 100%;
+    background-color: #2c3e50;
+
+}
+.last{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+}
+
+.one{
+    width: 30%;
+    color: white;
+    padding: 27px;
+}
+.two{
+    width: 30%;
+    color: white;
+    padding: 20px;
+}
+.three{
+    width: 30%;
+    color: white;
+    padding: 20px;
+}
+
+.two i{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    background-color: #2c3e50;
+    border: 2px white solid;
+    border-radius: 50%;
+}
+
+
+.footer{
+    background-color: #1a252f;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+
+}
+
+.links a:hover{
+    color: #1abc9c;
+}
+
+.button button:hover{
+    background-color: white;
+    color: black;
+    i{
+        color: black;
+    }
+}
+
+.two i:hover{
+    color: #2c3e50;
+    background-color: white;
+}
